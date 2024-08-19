@@ -26,7 +26,7 @@ const client = new MongoClient(uri, {
 });
 
 async function run() {
-  try {
+  try {            
     // await client.connect();
 
     const products = client.db("BrandQuest").collection("products")
